@@ -1,0 +1,568 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+}
+body {
+  margin: 50px;
+}
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 2px;
+}
+.Main {
+  margin: 80px 0px;
+}
+.book {
+  font-size: small;
+  border: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.input-search {
+  background-color: #f0f8ff;
+  width: 200px;
+  display: flex;
+  border-radius: 2px;
+  height: 35px;
+}
+.search-text {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+.bi-search {
+  font-size: small;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.img {
+  width: 15px;
+  height: 15px;
+  margin: 0px;
+  margin-top: -2.5px;
+}
+.in {
+  background-color: blue;
+  color: white;
+  padding: 0px 5px;
+  width: 10px;
+  border-radius: 4px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.active-style {
+  border-bottom: 2px solid blue;
+  margin: 5px 0px;
+  margin-bottom: -20px;
+  margin-top: 12px;
+  width: 65px;
+  margin-left: 5px;
+}
+
+.nav-name {
+  font-size: 14px;
+}
+.user-card {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.user,
+img {
+  width: 30px;
+  height: 30px;
+  margin: 8px;
+  border-radius: 15px;
+}
+
+.card-explore {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 5px 0px;
+  margin: 10px 0px;
+}
+.explore {
+  width: 25%;
+  height: 400px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.explore-p {
+  font-weight: bolder;
+  margin: 10px;
+}
+.recent {
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-top: 5px 0px;
+}
+
+.symbol {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #777;
+  text-align: center;
+}
+.adverts-card {
+  margin-bottom: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+.Adverts {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.user-ex {
+  margin: 0px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #145da0;
+  line-height: 18px;
+  display: flex;
+}
+
+.share-card {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  margin-bottom: 40px;
+}
+.Explore-more {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: small;
+  color: blue;
+  padding-bottom: 20px;
+  margin: 10px;
+}
+
+.bi-chevron-down {
+  font-size: bolder;
+}
+.senior {
+  display: flex;
+  margin-top: 0px;
+}
+
+.senior-backed {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.senior-text {
+  font-size: 14px;
+  font-weight: 60px;
+  font-weight: bold;
+}
+.job {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.vl {
+  border: 1px solid #ddd;
+}
+
+.junior-card {
+  margin: 10px 0px;
+  height: 560px;
+  padding: 25px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.junior-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.card-body {
+  padding: 0px 10px;
+
+  margin: 0px 25px;
+}
+a:link {
+  text-decoration: none;
+}
+
+.dribble {
+  margin-left: 400px;
+  margin-top: -30px;
+}
+.three-dats {
+  margin-top: -12px;
+}
+.jumior-text {
+  margin-left: -240px;
+  margin-top: -8px;
+  font-weight: bold;
+}
+.junior-css-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+}
+
+.photo {
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  text-align: center;
+  width: 200px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.vert {
+  border-right: 1px solid #ddd;
+}
+.video {
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  text-align: center;
+  width: 200px;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+
+.file {
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  text-align: center;
+  width: 200px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.post {
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  text-align: center;
+  width: 200px;
+  border-bottom: none;
+  border-right: none;
+  background-color: blue;
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+.btn-text {
+  border: none;
+  display: none;
+  visibility: none;
+}
+.today-new {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 120%;
+}
+.Job-picked {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 2px;
+  width: 120%;
+  border-radius: 5px;
+}
+.job-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.card-title {
+  font-size: small;
+}
+.card-text {
+  font-size: small;
+}
+.hr {
+  height: 100px;
+  background-color: blue;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.jone {
+  margin-top: 80px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 20px;
+  border: 2px solid white;
+}
+.Done {
+  margin: 30px;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+.p {
+  font-size: 12px;
+  margin-top: -3px;
+}
+.profile-conetion {
+  margin: 0px 10px;
+}
+
+.profile,
+.conections {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-size: 15px;
+}
+.num {
+  color: blue;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.horizental {
+  border-top: 1px solid #ddd;
+}
+.book {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: bolder;
+}
+.nav-vl {
+  border-right: 1px solid #ddd;
+}
+
+.share-img {
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.share-text {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.today {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+  padding-top: 25px;
+
+  padding-left: 8px;
+}
+.qution-mark {
+  background-color: lightgray;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+
+  border-radius: 10px;
+}
+.bold-text {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.p-text {
+  font-size: 13px;
+}
+.dat {
+  width: 50px;
+  height: 50px;
+  font-weight: bolder;
+}
+
+.read-more {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: small;
+  color: blue;
+  padding-bottom: 20px;
+}
+.see-more {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: blue;
+  padding: 10px 0px;
+  font-size: small;
+}
+
+@media only screen and (max-width: 769px) {
+  .Main {
+    padding: 25px;
+  }
+
+  /* user card start */
+  .user-card {
+    width: 120%;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    margin-left: -50px;
+    margin-right: 10px;
+  }
+  .hr {
+    background-color: yellow;
+  }
+  /* user card complite */
+
+  /* explore card start */
+
+  .card-explore {
+    width: 120%;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    margin-left: -50px;
+    margin-right: 10px;
+  }
+
+  /* explore card complited */
+
+  /* share card style start */
+  .share-card {
+    width: 120%;
+    margin: 0px;
+    margin-left: -30px;
+    margin-right: 5px;
+  }
+  /* share card style complited */
+
+  /* today-new card start*/
+  .today-new {
+    width: 120%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  /* today-new card complited*/
+
+  /* adverts-card style start */
+
+  .Adverts {
+    width: 120%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -30px;
+    margin-right: 5px;
+    height: 20px;
+  }
+
+  .adverts-text {
+    padding-left: 230px;
+  }
+
+  /* adverts-card style complited */
+
+  /* senior-backed styles start */
+
+  .senior-backed {
+    width: 120%;
+    margin: 0px;
+    margin-left: -30px;
+    margin-right: 5px;
+  }
+
+  /* senior-backed styles complited */
+
+  /* junior-card styles start */
+
+  .junior-card {
+    width: 120%;
+    margin: 0px;
+    margin-left: -30px;
+    margin-right: 5px;
+    height: 53ś0px;
+  }
+
+  .junior-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+  .jumior-text {
+    font-size: 15px;
+    padding-left: 220px;
+  }
+
+  .junior-p {
+    font-size: 15px;
+  }
+
+  .junior-css-img {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+
+  .junior-pp {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 15px 0px;
+  }
+
+  .dribble {
+    display: flex;
+    align-items: flex-start;
+    margin-left: -250px;
+    margin-top: -25px;
+  }
+  /* junior-card styles complited*/
+
+  /* Job-picked styles start */
+  .Job-picked {
+    width: 120%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and(max-width:425px) {
+  .navbar {
+    width: 425px;
+    overflow-y: hidden;
+  }
+  input[type="search"] {
+    width: 30px;
+    margin-left: 1000px;
+  }
+}
+
+@media (min-width: 640px) {
+  body {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 960px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1100px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
