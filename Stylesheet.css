@@ -9,21 +9,37 @@ html {
 body {
   margin: 50px;
 }
-.navbar {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  border-radius: 2px;
-}
 .Main {
   margin: 80px 0px;
 }
-.book {
-  font-size: small;
-  border: 1px solid #ddd;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
+
+/* navbar styles start */
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 2px;
+  margin-top: -10px;
+  padding: 10px 0px;
+  background-color: white;
+}
+#nav {
+  padding: 0px 88px 0px 132px;
+  background-color: white;
+  height: 55px;
 }
 
+/* linkedin tiltle styles */
+.in {
+  background-color: blue;
+  color: white;
+  padding: 0px 5px;
+  width: 10px;
+  border-radius: 4px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+/* linkedin tiltle styles end */
+
+/* input search */
 .input-search {
   background-color: #f0f8ff;
   width: 200px;
@@ -40,20 +56,14 @@ body {
   margin-top: 8px;
   margin-left: 8px;
 }
+/* input search styles complited */
+
+/* messaging images styles */
 .img {
   width: 15px;
   height: 15px;
   margin: 0px;
   margin-top: -2.5px;
-}
-.in {
-  background-color: blue;
-  color: white;
-  padding: 0px 5px;
-  width: 10px;
-  border-radius: 4px;
-  font-weight: bolder;
-  font-size: 25px;
 }
 
 .active-style {
@@ -68,10 +78,41 @@ body {
 .nav-name {
   font-size: 14px;
 }
-.user-card {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+
+.symbol {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #777;
+  text-align: center;
 }
+/* messaging images styles end */
+
+.nav-vl {
+  border-right: 1px solid #ddd;
+}
+
+.bi-house-door {
+  margin-right: 5px;
+}
+.bi-person {
+  margin-right: 5px;
+}
+
+.bi-briefcase {
+  margin-right: 5px;
+}
+
+.bi-bell {
+  margin-right: 5px;
+}
+.bi-chevron-down-jone {
+  font-size: 10px;
+}
+
+/* navbar styles end */
+
+/* user styles start */
 .user,
 img {
   width: 30px;
@@ -80,11 +121,109 @@ img {
   border-radius: 15px;
 }
 
+.user {
+  width: 30%;
+  margin: 15px;
+}
+
+.hr {
+  height: 100px;
+  background-color: blue;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.user-card {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.jone {
+  margin-top: 80px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 20px;
+  border: 2px solid white;
+  background-position: bottom;
+  object-fit: cover;
+  background-size: cover;
+}
+.Done {
+  margin: 30px;
+}
+
+.card-text {
+  font-size: small;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+.p {
+  font-size: 12px;
+  margin-top: -3px;
+}
+.profile-conetion {
+  margin: 0px 10px;
+}
+
+.profile,
+.conections {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-size: 15px;
+}
+.num {
+  color: blue;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.horizental {
+  border-top: 1px solid #ddd;
+}
+.book {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: bolder;
+  font-size: small;
+  border: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.bi-bookmark {
+  color: blue;
+  margin-right: 5px;
+}
+
+.fa-diamond {
+  color: blue;
+  margin-right: 5px;
+}
+
+.vl {
+  border: 1px solid #ddd;
+}
+/* user styles end */
+
+/* Explore styles start */
 .card-explore {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 5px 0px;
   margin: 10px 0px;
+}
+
+.explore-p {
+  font-weight: bolder;
+  margin: 10px;
 }
 .explore {
   width: 25%;
@@ -97,40 +236,6 @@ img {
   box-shadow: 0 10px 6px -6px #777;
 }
 
-.explore-p {
-  font-weight: bolder;
-  margin: 10px;
-}
-.recent {
-  font-weight: bolder;
-  margin-left: 10px;
-  margin-top: 10px;
-  font-size: 12px;
-  margin-top: 5px 0px;
-}
-
-.symbol {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  background-color: #777;
-  text-align: center;
-}
-.adverts-card {
-  margin-bottom: 5px;
-  padding: 5px;
-  margin-top: 10px;
-  text-align: center;
-}
-.Adverts {
-  display: flex;
-  justify-content: space-between;
-  margin: 0px 10px;
-  align-items: center;
-  font-size: 12px;
-  font-weight: bold;
-}
-
 .user-ex {
   margin: 0px 20px;
   font-size: 12px;
@@ -140,90 +245,68 @@ img {
   display: flex;
 }
 
+.bi-people {
+  margin-left: 2px;
+  margin-right: 4px;
+  color: blue;
+  font-size: 15px;
+}
+
+.professional {
+  margin-right: 8px;
+  color: blue;
+  font-size: 15px;
+}
+
+.recent {
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-top: 5px 0px;
+}
+
+.Explore-more {
+  color: blue;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-right: 10px;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.flex {
+  display: flex;
+}
+.Explore-more-right {
+  padding-top: 15px;
+}
+
+/* Explore styles end */
+
+/*  Share Your thoughts...  start */
+.thoughts {
+  width: 50%;
+  margin: 15px;
+}
+
 .share-card {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  border-radius: 2px;
+  border-radius: 5px;
   margin-bottom: 40px;
-}
-.Explore-more {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: small;
-  color: blue;
-  padding-bottom: 20px;
-  margin: 10px;
-}
-
-.bi-chevron-down {
-  font-size: bolder;
-}
-.senior {
-  display: flex;
-  margin-top: 0px;
-}
-
-.senior-backed {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-}
-
-.senior-text {
-  font-size: 14px;
-  font-weight: 60px;
-  font-weight: bold;
-}
-.job {
-  font-weight: 500;
   margin-top: 10px;
-  margin-left: 25px;
-}
-.vl {
-  border: 1px solid #ddd;
+  border: none;
 }
 
-.junior-card {
-  margin: 10px 0px;
-  height: 560px;
-  padding: 25px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-}
-.junior-img {
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-  margin-left: 10px;
-  margin-top: -5px;
-}
-.card-body {
-  padding: 0px 10px;
-
-  margin: 0px 25px;
-}
-a:link {
-  text-decoration: none;
-}
-
-.dribble {
-  margin-left: 400px;
-  margin-top: -30px;
-}
-.three-dats {
-  margin-top: -12px;
-}
-.jumior-text {
-  margin-left: -240px;
-  margin-top: -8px;
-  font-weight: bold;
-}
-.junior-css-img {
+.share-img {
+  margin: 10px;
+  border-radius: 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  padding: 10px;
-  width: 500px;
-  height: 300px;
+}
+
+.share-text {
+  margin-top: 10px;
+  margin-left: 5px;
 }
 
 .photo {
@@ -273,98 +356,155 @@ a:link {
   display: none;
   visibility: none;
 }
-.today-new {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  width: 120%;
-}
-.Job-picked {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  padding: 15px;
-  margin: 10px 0px;
-  border-radius: 2px;
-  width: 120%;
-  border-radius: 5px;
-}
-.job-img {
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-}
 
-.card-title {
-  font-size: small;
+.bi-camera {
+  margin-right: 5px;
+  color: blue;
 }
-.card-text {
-  font-size: small;
-}
-.hr {
-  height: 100px;
-  background-color: blue;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
+/*  Share Your thoughts...  end */
 
-.jone {
-  margin-top: 80px;
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-  margin-left: 20px;
-  border: 2px solid white;
-}
-.Done {
-  margin: 30px;
-}
+/* Adverts styles start */
 
-.text {
-  font-size: 15px;
-  font-weight: bold;
-  margin-bottom: -10px;
+.adverts-card {
+  margin-bottom: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  text-align: center;
 }
-.p {
-  font-size: 12px;
-  margin-top: -3px;
-}
-.profile-conetion {
-  margin: 0px 10px;
-}
-
-.profile,
-.conections {
+.Adverts {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
-  font-size: 15px;
-}
-.num {
-  color: blue;
+  margin: 0px 10px;
+  align-items: center;
+  font-size: 12px;
   font-weight: bold;
-  font-family: sans-serif;
 }
-.horizental {
-  border-top: 1px solid #ddd;
+.bi-info-circle {
+  margin-right: -50px;
 }
-.book {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  padding: 10px 0px;
+
+.adverts-text {
+  margin-left: -210px;
+}
+
+.recent-dow-arrow {
+  font-size: 12px;
   font-weight: bolder;
 }
-.nav-vl {
-  border-right: 1px solid #ddd;
+/* Adverts styles end */
+
+/* Senior Backed Devloper styles start */
+.senior-backed {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 5px;
 }
 
-.share-img {
-  margin: 10px;
-  border-radius: 10px;
+.senior-flex {
+  height: 30px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 10px;
 }
 
-.share-text {
+.senior-backed-title {
+  font-weight: bold;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-right: -280px;
+}
+
+.bi-chevron-right {
+  font-size: 12px;
+  color: black;
+}
+
+.senior-backed-text {
+  padding: 7px;
+}
+/* Senior Backed Devloper styles end*/
+/* .senior {
+  display: flex;
+  margin-top: 0px;
+}
+
+.senior-text {
+  font-size: 14px;
+  font-weight: 60px;
+  font-weight: bold;
+} */
+
+/* junior Digital devloper styles start */
+.junior-card {
+  margin: 10px 0px;
+  height: 560px;
+  padding: 25px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.junior-card-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.junior-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.jumior-text {
+  margin-left: -240px;
+  margin-top: -8px;
+  font-weight: bold;
+}
+
+.junior-css-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+}
+.three-dats {
+  margin-top: -12px;
+}
+
+.bi-three-dots {
+  font-size: 20px;
+}
+
+.junior-img-downn-text {
+  margin-left: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+.dribble {
+  margin-left: 400px;
+  margin-top: -30px;
+}
+
+/* junior Digital devloper styles end */
+
+/* today News Styles start */
+
+.today-flex {
+  width: 30%;
+  margin: 25px;
+}
+
+.today-news {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 120%;
 }
 
 .today {
@@ -372,20 +512,26 @@ a:link {
   justify-content: space-between;
   margin: 0px 10px;
   padding-top: 25px;
-
   padding-left: 8px;
 }
+
+.card-title {
+  font-size: bold;
+}
+
 .qution-mark {
   background-color: lightgray;
   width: 20px;
   height: 20px;
   text-align: center;
-
   border-radius: 10px;
 }
 .bold-text {
   font-size: 13px;
   font-weight: bold;
+}
+.Start-Wars {
+  margin: 20px;
 }
 
 .p-text {
@@ -398,17 +544,72 @@ a:link {
 }
 
 .read-more {
-  font-family: sans-serif;
   font-weight: bold;
   font-size: small;
   color: blue;
   padding-bottom: 20px;
 }
+
+.read-more-down-arrow {
+  font-weight: bold;
+  font-size: small;
+  color: blue;
+  padding-left: 10px;
+  font-size: 12px;
+}
+/* today News Styles end*/
+
+/* jobs picked for you styles start */
+
+.Job-picked {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  padding: 5px 0px;
+
+  width: 120%;
+  border-radius: 5px;
+}
+
+.card-title-jobs {
+  font-size: bold;
+  padding: 15px;
+}
+
+.junior-digital {
+  margin: 5px;
+}
+
+.card-title-p {
+  font-weight: bold;
+  margin-bottom: -25px;
+}
+
+.card-text-text {
+  margin-bottom: -30px;
+}
+
+/* jobs picked for you styles end */
+.job {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.card-body {
+  padding: 0px 10px;
+
+  margin: 0px 25px;
+}
+
+.job-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
 .see-more {
-  font-family: sans-serif;
   font-weight: bold;
   color: blue;
-  padding: 10px 0px;
+  padding: 10px 10px;
   font-size: small;
 }
 
